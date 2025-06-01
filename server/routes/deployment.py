@@ -5,13 +5,13 @@ import json
 import time
 
 # Tokens and Config
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = ''
 GITHUB_USERNAME = 'bhavyagp'
 REPO_NAME = 'york'
 LOCAL_DIR = r'C:\Users\91878\Desktop\check'  # Local root folder
 FOLDER_TO_COMMIT = 'NEW'
 GITHUB_API = 'https://api.github.com'
-VERCEL_TOKEN = '3j5WQ1sDWO1tM5qGBdGUYuqf'  # Replace with your actual Vercel token
+VERCEL_TOKEN = ''  # Replace with your actual Vercel token
 
 # Step 1: Create GitHub repo
 def create_github_repo():
